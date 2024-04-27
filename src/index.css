@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+button {
+  margin: 5px;
+}
+
+.Done {
+  text-decoration: line-through;
+}
+
+.Undone {
+  text-decoration: none;
+}
