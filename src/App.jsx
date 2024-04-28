@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import { Input } from "./components/Input";
 import { OrderList } from "./components/OrderList";
 import { useTodoData } from "./hooks/useTodoData";

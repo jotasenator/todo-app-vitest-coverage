@@ -14,13 +14,13 @@ export const useTodoData = () => {
     };
 
     const handleChange = ( e ) => {
-        e.preventDefault();
+
         setInputValue( e.target.value );
     };
 
     const handleDone = ( name ) => {
         const updatedTasks = tasks.map( ( task ) =>
-            task.taskName === name ? { ...task, isDone: !task.isDone } : task
+            task.taskName === name && { ...task, isDone: !task.isDone }
         );
         setTasks( updatedTasks );
     };
